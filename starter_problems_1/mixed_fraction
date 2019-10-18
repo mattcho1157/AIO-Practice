@@ -1,0 +1,17 @@
+f = open("mixin.txt", "r")
+num = f.readline().split(" ")
+f.close()
+
+n = int(num[0])
+d = int(num[1])
+
+if n % d == 0:
+    output = str(int(n / d))
+else:
+    quotient = n // d
+    remainder = n % d
+    output = str(quotient) + " " + str(remainder) + "/" + str(d)
+
+f = open("mixout.txt", "w")
+f.write(output)
+f.close()
