@@ -12,7 +12,6 @@ f.close()
 f = open("encyout.txt","w")
 
 for page in questionList:
-
     page = int(page)
     answer = int(wordList[page-1])
     f.write(str(answer) + "\n")
