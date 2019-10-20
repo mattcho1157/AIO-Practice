@@ -1,5 +1,5 @@
 # AIO_Practice
-This is my set of solutions to past AIO problems. Note that some problems are yet to be solved and thus, are excluded from this repository. Past problems can be retrieved from:
+This is my set of solutions to past AIO problems. Note that some problems are yet to be solved completely (i.e. get a score of 100%) and thus, are excluded from this repository. Past problems can be retrieved from:
 
 https://orac.amt.edu.au/cgi-bin/train/hub.pl
 
