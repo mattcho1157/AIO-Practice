@@ -1,0 +1,6 @@
+f = open("acadin.txt", "r")
+data = f.readlines()
+f.close()
+f = open("acadout.txt", "w")
+f.write(str(data.count("i\n") - data.count("o\n")))
+f.close()
